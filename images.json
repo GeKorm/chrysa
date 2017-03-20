@@ -1,0 +1,80 @@
+{
+  "dirs": [
+    "bits",
+    "cracks",
+    "equilibriums",
+    "figure study",
+    "installations",
+    "invisible worlds",
+    "microcosms",
+    "misc",
+    "pencil",
+    "portraits",
+    "scenography",
+    "Thesis - small"
+  ],
+  "titles": {
+    "bits": {
+      "1": "Something",
+      "2": "Title of Work"
+    },
+    "cracks": {
+      "1": "Something",
+      "2": "Title of Work"
+    },
+    "equilibriums": {
+      "1": "Something",
+      "2": "Title of Work"
+    },
+    "figure study": {
+      "1": "Something",
+      "2": "Title of Work"
+    },
+    "installations": {
+      "1": "Something",
+      "2": "Title of Work"
+    },
+    "invisible worlds": {
+      "1": "Something",
+      "2": "Title of Work"
+    },
+    "microcosms": {
+      "1": "Something",
+      "2": "Title of Work"
+    },
+    "misc": {
+      "1": "Something",
+      "2": "Title of Work"
+    },
+    "pencil": {
+      "1": "Something",
+      "2": "Title of Work"
+    },
+    "portraits": {
+      "1": "Something",
+      "2": "Title of Work"
+    },
+    "scenography": {
+      "1": "Something",
+      "2": "Title of Work"
+    },
+    "Thesis - small": {
+      "1": "Something",
+      "2": "Title of Work"
+    }
+  },
+  "counts": {
+    "bits": 31,
+    "cracks": 23,
+    "equilibriums": 9,
+    "figure study": 8,
+    "installations": 14,
+    "invisible worlds": 8,
+    "microcosms": 11,
+    "misc": 40,
+    "pencil": 9,
+    "portraits": 7,
+    "scenography": 24,
+    "Thesis - small": 52
+  }
+}

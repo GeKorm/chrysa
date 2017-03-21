@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // MagnificPopup
-	var magnifPopup = function() {
+  window.magnifPopup = function() {
 		$('.image-popup').magnificPopup({
 			type: 'image',
 			removalDelay: 300,

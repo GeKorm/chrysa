@@ -13,7 +13,7 @@
       'pencil',
       'busts',
       'scenography',
-      'thesis - small'
+      'thesis small'
     ],
     'titles': {
       'bits': {
@@ -197,7 +197,7 @@
         '23': 'Lighting Demo, \'El Vent i la marea\'',
         '24': 'Lighting Demo, \'El Vent i la marea\''
       },
-      'thesis - small': {
+      'thesis small': {
         '4': 'A World of Mine - Spectrum',
         '5': 'Acorns',
         '6': 'Atlantis',
@@ -251,7 +251,7 @@
       'pencil': 8,
       'busts': 7,
       'scenography': 24,
-      'thesis - small': 51
+      'thesis small': 51
     }
   };
 

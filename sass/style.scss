@@ -24,7 +24,7 @@ $form-group-margin-bottom:       30px !default;
 
 
 // Mixin
-@mixin fh5co-translate($translatex) {
+@mixin chrysakio-translate($translatex) {
 	-moz-transform: translateX($translatex);
 	-webkit-transform: translateX($translatex);
 	-ms-transform: translateX($translatex);
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: $brand-primary;
 }
 
-#fh5co-header {
+#chrysakio-header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attached: fixed;
@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-main {
+#chrysakio-main {
 	padding-top: 5em;
 	.section-heading {
 		h2 {
@@ -246,10 +246,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 }
 
-.fh5co-section {
+.chrysakio-section {
 	padding: 7em 0;
 }
-.fh5co-works {
+.chrysakio-works {
 	.work {
 		margin-bottom: 30px;
 		float: left;
@@ -275,6 +275,12 @@ h1, h2, h3, h4, h5, h6, figure {
 			}
 		}
 	}
+	ul {
+		list-style: none;
+	}
+	li {
+		list-style: none;
+	}
 }
 
 
@@ -285,7 +291,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	a {
 		color: $brand-secondary;
 	}
-	.fh5co-social {
+	.chrysakio-social {
 		margin: 0;
 		padding: 0;
 

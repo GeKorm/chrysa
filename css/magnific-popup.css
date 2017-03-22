@@ -272,15 +272,22 @@ img.mfp-img {
     font-size: 12px;
     line-height: 14px; }
   .mfp-figure figure {
-    margin: 0; }
+    margin: 0;
+    min-width: 244px;
+    }
 
 .mfp-bottom-bar {
-  margin-top: -36px;
+  margin-top: -40px;
   position: absolute;
   top: 100%;
+  transform: translateY(-100%);
   left: 0;
   width: 100%;
-  cursor: auto; }
+  cursor: auto;
+  text-shadow: -1px -1px 0 #000,        1px -1px 0 #000,      -1px 1px 0 #000,       1px 1px 0 #000;
+  background: rgba(0, 0, 0, 0.18);
+  padding: 2px 9px;
+  }
 
 .mfp-title {
   text-align: left;

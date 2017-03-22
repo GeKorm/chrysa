@@ -353,9 +353,9 @@
     var handleHashChange = function(e) {
       var hash = window.location.hash.replace('#', '');
       var galleryContainer = document.getElementById('ch-gal-container');
-      var dir = schema.titles[hash] && hash;
+      var dir = (schema.titles[hash] && hash) || 'invisible worlds';
       if (dir) {
-        var gallery = populateGallery(galleryContainer, dir);
+        populateGallery(galleryContainer, dir);
         $(function() {
           magnifPopup();
           contentWayPoint();

@@ -10,7 +10,6 @@
       'invisible worlds',
       'microcosms',
       'misc',
-      'pencil',
       'busts',
       'scenography',
       'thesis small'
@@ -88,7 +87,14 @@
         '5': 'Untitled',
         '6': 'Untitled',
         '7': 'Untitled',
-        '8': 'Untitled'
+        '8': 'Untitled',
+        '10': 'Untitled',
+        '11': 'Untitled',
+        '12': 'Untitled',
+        '13': 'Untitled',
+        '14': 'Untitled',
+        '15': 'Untitled',
+        '16': 'Untitled'
       },
       'installations': {
         '1': 'Growing Unique II - Detail',
@@ -151,16 +157,6 @@
         '22': 'Hourglass',
         '23': 'Landscape',
         '27': 'The Weight of Thoughts'
-      },
-      'pencil': {
-        '1': 'Untitled',
-        '2': 'Untitled',
-        '3': 'Untitled',
-        '4': 'Untitled',
-        '5': 'Untitled',
-        '6': 'Untitled',
-        '7': 'Untitled',
-        '8': 'Untitled'
       },
       'busts': {
         '1': 'Hermes',
@@ -243,12 +239,11 @@
       'bits': 31,
       'cracks': 18,
       'equilibriums': 9,
-      'figure study': 8,
+      'figure study': 16,
       'installations': 14,
       'invisible worlds': 8,
       'microcosms': 11,
       'misc': 28,
-      'pencil': 8,
       'busts': 7,
       'scenography': 24,
       'thesis small': 51

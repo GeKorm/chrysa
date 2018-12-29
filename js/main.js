@@ -1,7 +1,7 @@
-;(function() {
+(function() {
   'use strict';
   var schema = {
-    'dirs': [
+    dirs: [
       'bits',
       'cracks',
       'equilibriums',
@@ -14,8 +14,8 @@
       'scenography',
       'thesis small'
     ],
-    'titles': {
-      'bits': {
+    titles: {
+      bits: {
         '1': 'Untitled',
         '2': 'Untitled',
         '3': 'Untitled',
@@ -48,7 +48,7 @@
         '30': 'Untitled',
         '31': 'Untitled'
       },
-      'cracks': {
+      cracks: {
         '1': 'Crack I',
         '2': 'Crack II - Detail',
         '3': 'Crack II - Detail',
@@ -68,7 +68,7 @@
         '17': 'Crack II',
         '18': 'Crack II - Detail'
       },
-      'equilibriums': {
+      equilibriums: {
         '1': 'Balance',
         '2': 'Equal and Opposite',
         '3': 'Without Gravity',
@@ -96,7 +96,7 @@
         '15': 'Untitled',
         '16': 'Untitled'
       },
-      'installations': {
+      installations: {
         '1': 'Growing Unique II - Detail',
         '2': 'Growing Unique II - Detail',
         '3': 'Growing Unique II',
@@ -122,7 +122,7 @@
         '7': 'The Treehouse and the Spring',
         '8': 'Aquatic Symphony'
       },
-      'microcosms': {
+      microcosms: {
         '1': 'Better Days',
         '2': 'Coral Reef',
         '3': 'Oasis - Detail',
@@ -132,10 +132,10 @@
         '7': 'Parallel World III',
         '8': 'Play Together',
         '9': 'Portraits',
-        '10': 'Snow Queen\'s Dream',
+        '10': "Snow Queen's Dream",
         '11': 'Portraits - Detail'
       },
-      'misc': {
+      misc: {
         '1': 'Untitled',
         '2': 'Untitled',
         '3': 'Untitled',
@@ -158,7 +158,7 @@
         '23': 'Landscape',
         '27': 'The Weight of Thoughts'
       },
-      'busts': {
+      busts: {
         '1': 'Hermes',
         '2': 'Homer',
         '3': 'Socrates',
@@ -167,31 +167,31 @@
         '6': 'Hippocrates',
         '7': 'Aesculapius'
       },
-      'scenography': {
-        '1': 'Scenery Painting, \'Doukinio\'s marriage\'',
-        '2': 'Scenery Painting, \'Doukinio\'s marriage\'',
-        '3': 'Scenery Painting, \'Doukinio\'s marriage\'',
-        '4': 'Scenery Painting, \'Doukinio\'s marriage\'',
-        '5': 'Scenery Painting, \'Doukinio\'s marriage\'',
-        '6': 'Scenery Painting, \'Doukinio\'s marriage\'',
-        '7': 'Scenery Painting, \'Doukinio\'s marriage\'',
-        '8': 'Scenery Painting, \'Doukinio\'s marriage\'',
-        '9': 'Scenery Painting, \'Doukinio\'s marriage\'',
-        '10': 'Lighting Demo, \'El Vent i la marea\'',
-        '11': 'Lighting Demo, \'El Vent i la marea\'',
-        '12': 'Lighting Demo, \'El Vent i la marea\'',
-        '13': 'Lighting Demo, \'El Vent i la marea\'',
-        '14': 'Lighting Demo, \'El Vent i la marea\'',
-        '15': 'Lighting Demo, \'El Vent i la marea\'',
-        '16': 'Lighting Demo, \'El Vent i la marea\'',
-        '17': 'Lighting Demo, \'El Vent i la marea\'',
-        '18': 'Lighting Demo, \'El Vent i la marea\'',
-        '19': 'Lighting Demo, \'El Vent i la marea\'',
-        '20': 'Lighting Demo, \'El Vent i la marea\'',
-        '21': 'Lighting Demo, \'El Vent i la marea\'',
-        '22': 'Lighting Demo, \'El Vent i la marea\'',
-        '23': 'Lighting Demo, \'El Vent i la marea\'',
-        '24': 'Lighting Demo, \'El Vent i la marea\''
+      scenography: {
+        '1': "Scenery Painting, 'Doukinio's marriage'",
+        '2': "Scenery Painting, 'Doukinio's marriage'",
+        '3': "Scenery Painting, 'Doukinio's marriage'",
+        '4': "Scenery Painting, 'Doukinio's marriage'",
+        '5': "Scenery Painting, 'Doukinio's marriage'",
+        '6': "Scenery Painting, 'Doukinio's marriage'",
+        '7': "Scenery Painting, 'Doukinio's marriage'",
+        '8': "Scenery Painting, 'Doukinio's marriage'",
+        '9': "Scenery Painting, 'Doukinio's marriage'",
+        '10': "Lighting Demo, 'El Vent i la marea'",
+        '11': "Lighting Demo, 'El Vent i la marea'",
+        '12': "Lighting Demo, 'El Vent i la marea'",
+        '13': "Lighting Demo, 'El Vent i la marea'",
+        '14': "Lighting Demo, 'El Vent i la marea'",
+        '15': "Lighting Demo, 'El Vent i la marea'",
+        '16': "Lighting Demo, 'El Vent i la marea'",
+        '17': "Lighting Demo, 'El Vent i la marea'",
+        '18': "Lighting Demo, 'El Vent i la marea'",
+        '19': "Lighting Demo, 'El Vent i la marea'",
+        '20': "Lighting Demo, 'El Vent i la marea'",
+        '21': "Lighting Demo, 'El Vent i la marea'",
+        '22': "Lighting Demo, 'El Vent i la marea'",
+        '23': "Lighting Demo, 'El Vent i la marea'",
+        '24': "Lighting Demo, 'El Vent i la marea'"
       },
       'thesis small': {
         '4': 'A World of Mine - Spectrum',
@@ -209,8 +209,8 @@
         '17': 'Like Blue Beans',
         '18': 'A World of Mine - Night Bubble',
         '20': 'A World of Mine - Black',
-        "21": "Primal Shard",
-        "23": "Reflection",
+        '21': 'Primal Shard',
+        '23': 'Reflection',
         '1': 'Configuration I',
         '24': 'Mirage of an Air-city',
         '25': 'Blue Moors',
@@ -232,20 +232,19 @@
         '49': 'Mind Spindle',
         '50': 'Music',
         '51': 'The Other Side'
-
       }
     },
-    'counts': {
-      'bits': 31,
-      'cracks': 18,
-      'equilibriums': 9,
+    counts: {
+      bits: 31,
+      cracks: 18,
+      equilibriums: 9,
       'figure study': 16,
-      'installations': 14,
+      installations: 14,
       'invisible worlds': 8,
-      'microcosms': 11,
-      'misc': 28,
-      'busts': 7,
-      'scenography': 24,
+      microcosms: 11,
+      misc: 28,
+      busts: 7,
+      scenography: 24,
       'thesis small': 51
     }
   };
@@ -267,65 +266,73 @@
       return navigator.userAgent.match(/IEMobile/i);
     },
     any: function() {
-      return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+      return (
+        isMobile.Android() ||
+        isMobile.BlackBerry() ||
+        isMobile.iOS() ||
+        isMobile.Opera() ||
+        isMobile.Windows()
+      );
     }
   };
 
   var parallax = function() {
-
     if (!isMobile.any()) {
-
       $(window).stellar({
         horizontalScrolling: false,
         hideDistantElements: false,
         responsive: true
       });
-
     }
   };
 
   var contentWayPoint = function() {
     var i = 0;
-    $('.animate-box').waypoint(function(direction) {
+    $('.animate-box').waypoint(
+      function(direction) {
+        if (direction === 'down' && !$(this.element).hasClass('animated-fast')) {
+          i++;
 
-      if (direction === 'down' && !$(this.element).hasClass('animated-fast')) {
+          $(this.element).addClass('item-animate');
+          setTimeout(function() {
+            $('body .animate-box.item-animate').each(function(k) {
+              var el = $(this);
+              setTimeout(
+                function() {
+                  var effect = el.data('animate-effect');
+                  if (effect === 'fadeIn') {
+                    el.addClass('fadeIn animated-fast');
+                  } else if (effect === 'fadeInLeft') {
+                    el.addClass('fadeInLeft animated-fast');
+                  } else if (effect === 'fadeInRight') {
+                    el.addClass('fadeInRight animated-fast');
+                  } else {
+                    el.addClass('fadeInUp animated-fast');
+                  }
 
-        i++;
-
-        $(this.element).addClass('item-animate');
-        setTimeout(function() {
-
-          $('body .animate-box.item-animate').each(function(k) {
-            var el = $(this);
-            setTimeout(function() {
-              var effect = el.data('animate-effect');
-              if (effect === 'fadeIn') {
-                el.addClass('fadeIn animated-fast');
-              } else if (effect === 'fadeInLeft') {
-                el.addClass('fadeInLeft animated-fast');
-              } else if (effect === 'fadeInRight') {
-                el.addClass('fadeInRight animated-fast');
-              } else {
-                el.addClass('fadeInUp animated-fast');
-              }
-
-              el.removeClass('item-animate');
-            }, k * 100, 'easeInOutExpo');
-          });
-
-        }, 100);
-
-      }
-
-    }, { offset: '85%' });
+                  el.removeClass('item-animate');
+                },
+                k * 100,
+                'easeInOutExpo'
+              );
+            });
+          }, 100);
+        }
+      },
+      { offset: '85%' }
+    );
   };
 
-  $( document ).ready(function() {
+  $(document).ready(function() {
     var imageComponent = function(props) {
       var div = document.createElement('div');
       div.className = 'col-md-6 col-md-6 col-sm-6 col-xs-6 work animate-box';
-      div.innerHTML = `<a href="images/${props.dir}/img_${props.index}.jpg" class="image-popup" title="${props.title}">
-  <img src="images/${props.dir}/img_${props.index}-pre.jpg" alt="Chrysa Kioroglou Art" class="img-responsive">
+      div.innerHTML = `<a href="images/${props.dir}/img_${
+        props.index
+      }.jpg" class="image-popup" title="${props.title}">
+  <img src="images/${props.dir}/img_${
+        props.index
+      }-pre.jpg" alt="Chrysa Kioroglou Art" class="img-responsive">
 </a>`;
       return div;
     };
@@ -333,11 +340,13 @@
     var populateGallery = function(galleryContainer, dir) {
       var gallery = document.createElement('div');
       gallery.className = 'row';
-      var images = new Array(schema.counts[dir]).fill(null).map((image, i) => imageComponent({
-        dir: dir,
-        index: i + 1,
-        title: schema.titles[dir][i + 1] || 'Untitled'
-      }));
+      var images = new Array(schema.counts[dir]).fill(null).map((image, i) =>
+        imageComponent({
+          dir: dir,
+          index: i + 1,
+          title: schema.titles[dir][i + 1] || 'Untitled'
+        })
+      );
       images.forEach((image) => {
         gallery.appendChild(image);
       });
@@ -361,10 +370,8 @@
     window.addEventListener('hashchange', handleHashChange, false);
   });
 
-
-    $(function() {
-      parallax();
-      contentWayPoint();
-    });
-
-}());
+  $(function() {
+    parallax();
+    contentWayPoint();
+  });
+})();

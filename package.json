@@ -1,0 +1,13 @@
+{
+  "name": "chrysa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GeKorm/chrysa.git",
+  "author": "GeKorm <mail@gekorm.com>",
+  "license": "NOLICENSE",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "prettier": "^1.15.3"
+  }
+}

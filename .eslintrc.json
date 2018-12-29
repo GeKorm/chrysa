@@ -1,0 +1,72 @@
+{
+  "plugins": ["babel", "prettier"],
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "prettier/prettier": ["error", {"trailingComma": "none", "singleQuote": true, "printWidth": 100, "arrowParens": "always"}],
+    "object-curly-spacing": [1, "always"],
+    "object-shorthand": [1, "consistent"],
+    "prefer-rest-params": 0,
+    "no-confusing-arrow": 0,
+    "no-plusplus": 0,
+    "func-names": 0,
+    "no-shadow": 2,
+    "no-shadow-restricted-names": 2,
+    "no-underscore-dangle": 0,
+    "max-len": [1, 100, {"ignoreComments": true, "ignoreTrailingComments": true, "ignoreUrls": true, "ignoreTemplateLiterals": true}],
+    "no-multiple-empty-lines": [2, { "max": 1 }],
+    "no-warning-comments": 0,
+    "no-unused-vars": 1,
+    "react/destructuring-assignment": 0,
+    "react/no-unused-prop-types": [2, {
+      "customValidators": [],
+      "skipShapeProps": true
+    }],
+    "no-unused-expressions": 1,
+    "no-undef": 2,
+    "require-jsdoc": 0,
+    "no-console": 0,
+    "comma-dangle": [1, "never"],
+    "no-else-return": 0,
+    "react/no-danger": 0,
+    "react/jsx-filename-extension": 0,
+    "react/forbid-prop-types": [1, { "forbid": ["any"] }],
+    "react/prop-types": [1, { "ignore": ["children", "location"], "skipUndeclared": false }],
+    "jsx-a11y/img-has-alt": 0,
+    "jsx-a11y/label-has-for": [ 2, {
+      "required": {
+        "some": [ "nesting", "id" ]
+      },
+      "allowChildren": true
+    }],
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/anchor-is-valid": [2, { "components": [ "Link", "RouterLink", "NavLink" ], "specialLink": ["to"] }],
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "react/forbid-foreign-prop-types": 2,
+    "babel/arrow-parens": 2,
+    "import/no-named-as-default-member": 0,
+    "import/prefer-default-export": 0,
+    "arrow-body-style": ["error", "as-needed"],
+    "linebreak-style": 0,
+    "arrow-parens": [1, "always"],
+    "prefer-destructuring": 0,
+    "no-negated-condition": 0,
+    "no-link-component/no-link-component": "error",
+    "space-before-function-paren": ["error", {"anonymous": "never", "named": "never", "asyncArrow": "always"}]
+  },
+  "env": {
+    "es6": true,
+    "shared-node-browser": true,
+    "browser": true,
+    "commonjs": true,
+    "jquery": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  }
+}

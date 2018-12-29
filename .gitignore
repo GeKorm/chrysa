@@ -94,5 +94,6 @@ $RECYCLE.BIN/
 
 /.idea/**/*
 /.sass-cache/**/*
+/node_modules/
 
 \.idea/

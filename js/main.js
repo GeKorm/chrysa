@@ -355,7 +355,7 @@
     };
 
     var handleHashChange = function(e) {
-      var hash = window.location.hash.replace('#', '');
+      var hash = decodeURIComponent(window.location.hash.replace('#', ''));
       var galleryContainer = document.getElementById('ch-gal-container');
       var dir = (schema.titles[hash] && hash) || 'invisible worlds';
       if (dir) {

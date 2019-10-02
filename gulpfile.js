@@ -16,11 +16,10 @@ const processors = [
   unprefix,
   env({
     stage: 4,
-    browsers: '> 1% in GB'
+    browsers: '> 0.5% in GB, not Safari < 10, not iOS < 10, not dead'
   }),
   flexboxfixer,
   gradientfixer,
-  autoprefixer({ browsers: ['> 1% in GB'] }),
   flexbugFix()
 ];
 
